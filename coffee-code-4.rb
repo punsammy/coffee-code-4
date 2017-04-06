@@ -22,11 +22,12 @@ numbers = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
 suits = ['spades', 'hearts', 'diamonds', 'clubs']
 cards = []
 
+#Method 1
 suits.each do |suit|
   numbers.each do |number|
     cards << [suit, number]
   end
 end
 
-
-# numbers.product(suits)
+        #Method 2
+        # numbers.product(suits)
